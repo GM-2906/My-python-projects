@@ -56,7 +56,7 @@ class UltimateConverter:
         header_frame.pack(pady=20)
         
         tk.Label(header_frame, text="Медиа конвертер", fg="#00FF00", bg="#1c1c1c", font=("Impact", 24)).pack()
-        tk.Label(header_frame, text="Видео • Аудио • Изо. • Архивыв", fg="#888", bg="#1c1c1c", font=("Arial", 9)).pack()
+        tk.Label(header_frame, text="Видео • Аудио • Изо. • Архивы", fg="#888", bg="#1c1c1c", font=("Arial", 9)).pack()
 
         # --- ШАГ 1: КАТЕГОРИЯ ---
         step1_frame = tk.Frame(self.root, bg="#1c1c1c")
